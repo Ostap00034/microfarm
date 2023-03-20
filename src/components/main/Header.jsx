@@ -19,19 +19,16 @@ const Header = () => {
       </Link>
 
       <div className="flex flex-row items-center gap-[48px] font-gilroy-bold text-[18px] leading-[22.28px] text-white">
-        <Link href="/#about_us" className="duration-300 hover:text-[#16A34A]">
+        <Link href="/#about_us" className="duration-300 hover:text-green">
           О нас
         </Link>
-        <Link href="/#advantages" className="duration-300 hover:text-[#16A34A]">
+        <Link href="/#advantages" className="duration-300 hover:text-green">
           Преимущества
         </Link>
-        <Link href="/#technology" className="duration-300 hover:text-[#16A34A]">
+        <Link href="/#technology" className="duration-300 hover:text-green">
           Технология
         </Link>
-        <Button
-          text="Связаться"
-          className="duration-300 hover:text-[#16A34A]"
-        />
+        <Button text="Связаться" />
       </div>
     </header>
   );

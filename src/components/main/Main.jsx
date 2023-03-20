@@ -13,13 +13,12 @@ const Main = () => {
           IOT технологии
         </h1>
       </div>
-      <Image
+      <img
         className="rounded-[24px]"
         src="/images/main.jpg"
         width="560"
         height="350"
         alt="main image"
-        priority
       />
     </ComponentLayout>
   );

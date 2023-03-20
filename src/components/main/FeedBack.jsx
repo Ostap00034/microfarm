@@ -32,6 +32,7 @@ const FeedBack = () => {
           width="52%"
           height="423"
           loading="lazy"
+          className="rounded-[12px]"
         ></iframe>
       </div>
     </ComponentLayout>

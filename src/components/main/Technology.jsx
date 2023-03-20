@@ -19,14 +19,14 @@ const Technology = () => {
         <span className="block h-[2px] w-[40px] rounded-l-[1px] bg-green"></span>
       </div>
       <div className="flex w-full flex-row items-center justify-center gap-[48px]">
-        <Card2 src="./images/face.png" text="Внешний вид" alt="Внешний вид" />
+        <Card2 src="/images/face.png" text="Внешний вид" alt="Внешний вид" />
         <Card2
-          src="./images/controlpanel.png"
+          src="/images/controlpanel.png"
           text="Панель управления"
           alt="Панель управления"
         />
         <Card2
-          src="./images/structure.png"
+          src="/images/structure.png"
           text="Внутренняя структура"
           alt="Внутренняя структура"
         />

@@ -10,21 +10,21 @@ const TrustUs = () => {
       </h2>
       <div className="flex w-full flex-row items-center justify-center gap-[48px]">
         <Image
-          src="./images/logos/tehnopark.svg"
+          src="/images/logos/tehnopark.svg"
           width="250"
           height="250"
           alt="Технопарк Якутия"
           priority
         />
         <Image
-          src="./images/logos/oreh.svg"
+          src="/images/logos/oreh.svg"
           width="250"
           height="250"
           alt="OREH"
           priority
         />
         <Image
-          src="./images/logos/fond.svg"
+          src="/images/logos/fond.svg"
           width="250"
           height="250"
           alt="Фонд содействия инновациям"

@@ -8,13 +8,7 @@ const Footer = () => {
       <div className="flex w-full flex-row items-center justify-between">
         <Link href="/#main">
           <div className="flex flex-row items-center justify-center gap-[24px]">
-            <Image
-              src="./logo.svg"
-              priority
-              width="56"
-              height="56"
-              alt="logo"
-            />
+            <Image src="/logo.svg" priority width="56" height="56" alt="logo" />
             <h2 className="font-gilroy-bold text-[36px] not-italic  leading-[45px] text-white">
               MiCROFARM
             </h2>

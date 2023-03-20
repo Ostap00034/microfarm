@@ -15,7 +15,7 @@ const Main = () => {
       </div>
       <Image
         className="rounded-[24px]"
-        src="./images/main.jpg"
+        src="/images/main.jpg"
         width="560"
         height="350"
         alt="main image"

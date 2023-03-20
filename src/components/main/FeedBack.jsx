@@ -27,13 +27,6 @@ const FeedBack = () => {
           <Button text="Отправить" />
         </form>
 
-        {/* <iframe
-          src="https://yandex.ru/maps/-/CCUO7FxMPB"
-          width="52%"
-          height="423"
-          className="rounded-[12px]"
-          allowfullscreen="true"
-        ></iframe> */}
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.5562972699518!2d129.7506451690147!3d62.032420347358766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5bf64bc95254bafd%3A0x9efb00617c6f4273!2zSVQt0J_QsNGA0Log0K_QutGD0YLRgdC6!5e0!3m2!1sen!2sru!4v1679254260481!5m2!1sen!2sru"
           width="52%"

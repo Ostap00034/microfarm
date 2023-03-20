@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Button from "../ui/Button";
 
 const Footer = () => {
   return (
@@ -28,13 +27,13 @@ const Footer = () => {
         </div>
         <div className="flex flex-row gap-[24px]">
           <Image
-            src="/icons/whatsapp.svg"
+            src="./icons/whatsapp.svg"
             width="24"
             height="24"
             alt="whatsapp logo"
           />
           <Image
-            src="/icons/telegram.svg"
+            src="./icons/telegram.svg"
             width="24"
             height="24"
             alt="telegram logo"

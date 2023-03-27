@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="flex w-full flex-col items-start justify-start gap-[36px] bg-black py-[36px] px-[72px]">
       <div className="flex w-full flex-row items-center justify-between">
-        <Link href="/#main">
+        <Link href="/#main" scroll={false}>
           <div className="flex flex-row items-center justify-center gap-[24px]">
             <Image src="/logo.svg" priority width="56" height="56" alt="logo" />
             <h2 className="font-gilroy-bold text-[36px] not-italic  leading-[45px] text-white">
@@ -15,13 +15,25 @@ const Footer = () => {
           </div>
         </Link>
         <div className="flex flex-row items-center gap-[48px] font-gilroy-bold text-[18px] leading-[22.28px] text-white">
-          <Link href="/#about_us" className="duration-300 hover:text-green">
+          <Link
+            href="/#about_us"
+            className="duration-300 hover:text-green"
+            scroll={false}
+          >
             О нас
           </Link>
-          <Link href="/#advantages" className="duration-300 hover:text-green">
+          <Link
+            href="/#advantages"
+            className="duration-300 hover:text-green"
+            scroll={false}
+          >
             Преимущества
           </Link>
-          <Link href="/#technology" className="duration-300 hover:text-green">
+          <Link
+            href="/#technology"
+            className="duration-300 hover:text-green"
+            scroll={false}
+          >
             Технология
           </Link>
         </div>

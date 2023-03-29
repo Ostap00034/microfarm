@@ -4,7 +4,7 @@ import ComponentLayout from "../layouts/ComponentLayout";
 
 const Main = () => {
   return (
-    <ComponentLayout row>
+    <ComponentLayout>
       <div className="">
         <h1 className="font-gilroy-bold text-[48px] leading-[59.42px] text-white">
           Автоматизированные фермы.
@@ -13,14 +13,15 @@ const Main = () => {
           IOT технологии
         </h1>
       </div>
-      <Image
-        className="rounded-[24px]"
-        src="/images/main.jpg"
-        width="560"
-        height="350"
-        alt="main image"
-        priority
-      />
+      <div className="relative h-[50vw] w-[80vw] xl:h-[28vw] xl:w-[45vw]">
+        <Image
+          className="rounded-[24px]"
+          src="/images/main.jpg"
+          alt="main image"
+          priority
+          fill
+        />
+      </div>
     </ComponentLayout>
   );
 };

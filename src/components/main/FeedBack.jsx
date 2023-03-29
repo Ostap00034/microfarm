@@ -4,11 +4,11 @@ import Button from "../ui/Button";
 
 const FeedBack = () => {
   return (
-    <ComponentLayout>
+    <ComponentLayout col>
       <h2 className="font-gilroy-bold text-[36px] uppercase leading-[44.57px] text-green">
         Связаться с нами
       </h2>
-      <div className="flex w-full flex-row flex-wrap items-center justify-between">
+      <div className="flex w-full flex-col flex-wrap items-center justify-between gap-[24px] xl:flex-row">
         <form className="flex flex-col items-center justify-center gap-[24px]">
           <input
             type="text"

@@ -4,11 +4,11 @@ import ComponentLayout from "../layouts/ComponentLayout";
 
 const TrustUs = () => {
   return (
-    <ComponentLayout>
+    <ComponentLayout col>
       <h2 className="font-gilroy-bold text-[36px] uppercase leading-[44.57px] text-green">
         Нам доверяют
       </h2>
-      <div className="flex w-full flex-row items-center justify-center gap-[48px]">
+      <div className="flex w-full flex-col items-center justify-center gap-[48px] xl:flex-row">
         <Image
           src="/images/logos/tehnopark.svg"
           width="250"

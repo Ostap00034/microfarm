@@ -4,7 +4,7 @@ import ComponentLayout from "@/components/layouts/ComponentLayout";
 
 const Advantages = () => {
   return (
-    <ComponentLayout>
+    <ComponentLayout col>
       <h2
         id="advantages"
         className="font-gilroy-bold text-[36px] uppercase leading-[44.57px] text-green"
@@ -18,7 +18,7 @@ const Advantages = () => {
         </h5>
         <span className="block h-[2px] w-[40px] rounded-l-[1px] bg-green"></span>
       </div>
-      <div className="flex flex-row gap-[44px]">
+      <div className="flex flex-col gap-[44px] xl:flex-row">
         <Card
           headline="Хорошая логистика"
           text="Закрытая экосистема позволяет размещать производства в городах и выращивать круглый год"

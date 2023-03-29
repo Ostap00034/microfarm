@@ -1,13 +1,14 @@
 import React from "react";
 
-const ComponentLayout = ({ children, row = false, bg = "" }) => {
+const ComponentLayout = ({ children, col, bg = "" }) => {
   bg = "bg-" + bg;
   return (
     <div
       className={
-        row
-          ? "flex w-full flex-row items-start justify-between gap-[36px] " + bg
-          : "flex w-full flex-col items-start justify-between gap-[36px] " + bg
+        col
+          ? "flex w-full flex-col items-start justify-between gap-[36px] " + bg
+          : "flex w-full flex-col items-start justify-between gap-[36px] xl:flex-row " +
+            bg
       }
     >
       {children}

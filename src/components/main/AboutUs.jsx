@@ -3,7 +3,7 @@ import ComponentLayout from "../layouts/ComponentLayout";
 
 const AboutUs = () => {
   return (
-    <ComponentLayout>
+    <ComponentLayout col>
       <h2
         id="about_us"
         className="font-gilroy-bold text-[36px] uppercase leading-[44.57px] text-green"

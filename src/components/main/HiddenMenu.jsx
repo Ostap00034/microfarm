@@ -40,7 +40,15 @@ const HiddenMenu = ({ open, setOpen }) => {
         >
           Технология
         </Link>
-        <Button text="Связаться" />
+        <Link
+          onClick={() => {
+            setOpen(!open);
+          }}
+          href="/#feedback"
+          scroll={false}
+        >
+          <Button text="Связаться" />
+        </Link>
       </div>
     </div>
   );

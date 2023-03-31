@@ -5,7 +5,10 @@ import Button from "../ui/Button";
 const FeedBack = () => {
   return (
     <ComponentLayout col>
-      <h2 className="font-gilroy-bold text-[36px] uppercase leading-[44.57px] text-green">
+      <h2
+        id="feedback"
+        className="font-gilroy-bold text-[36px] uppercase leading-[44.57px] text-green"
+      >
         Связаться с нами
       </h2>
       <div className="flex w-full flex-col flex-wrap items-center justify-between gap-[24px] xl:flex-row">

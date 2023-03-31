@@ -44,13 +44,7 @@ const Header = () => {
           >
             Технология
           </Link>
-          <Link
-            onClick={() => {
-              setOpen(!open);
-            }}
-            href="/#feedback"
-            scroll={false}
-          >
+          <Link href="/#feedback" scroll={false}>
             <Button text="Связаться" />
           </Link>
         </div>

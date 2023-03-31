@@ -44,7 +44,15 @@ const Header = () => {
           >
             Технология
           </Link>
-          <Button text="Связаться" />
+          <Link
+            onClick={() => {
+              setOpen(!open);
+            }}
+            href="/#feedback"
+            scroll={false}
+          >
+            <Button text="Связаться" />
+          </Link>
         </div>
         <div
           className="z-50 flex h-[60px] w-[80px] flex-col items-center justify-around xl:hidden"

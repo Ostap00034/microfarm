@@ -11,21 +11,21 @@ const FeedBack = () => {
       >
         Связаться с нами
       </h2>
-      <div className="flex w-full flex-col flex-wrap items-center justify-between gap-[24px] xl:flex-row">
+      <div className="flex w-full flex-col items-center justify-between gap-[24px] xl:flex-row">
         <form className="flex flex-col items-center justify-center gap-[24px]">
           <input
             type="text"
             placeholder="Ваше имя"
-            className="h-[60px] w-auto min-w-[40vw] max-w-[40%] rounded-[12px] py-[20px] px-[16px] font-gilroy-medium text-[16px] leading-[19.41px]"
+            className="h-[60px] w-[80vw] min-w-[40vw] rounded-[12px] py-[20px] px-[16px] font-gilroy-medium text-[16px] leading-[19.41px] xl:w-auto"
           />
           <input
             type="text"
             placeholder="Номер телефона"
-            className="h-[60px] w-auto min-w-[40vw] rounded-[12px] py-[20px] px-[16px] font-gilroy-medium text-[16px] leading-[19.41px]"
+            className="h-[60px] w-[80vw] min-w-[40vw] rounded-[12px] py-[20px] px-[16px] font-gilroy-medium text-[16px] leading-[19.41px] xl:w-auto"
           />
           <textarea
             placeholder="Кратко опишите ваш проект"
-            className="h-[176px] w-auto min-w-[40vw] rounded-[12px] py-[20px] px-[16px] font-gilroy-medium text-[16px] leading-[19.41px]"
+            className="h-[176px] w-[80vw] min-w-[40vw] rounded-[12px] py-[20px] px-[16px] font-gilroy-medium text-[16px] leading-[19.41px] xl:w-auto"
           ></textarea>
           <Button text="Отправить" />
         </form>
@@ -35,7 +35,7 @@ const FeedBack = () => {
           width="52%"
           height="423"
           loading="lazy"
-          className="rounded-[12px]"
+          className="h-[423px] w-[80vw] rounded-[12px] xl:w-[52vw]"
         ></iframe>
       </div>
     </ComponentLayout>

@@ -51,7 +51,7 @@ const Header = () => {
           </Link>
         </div>
         <div
-          className="z-50 flex h-[40px] w-[60px] flex-col items-center justify-around xl:hidden"
+          className="z-50 flex h-[40px] w-[40px] flex-col items-center justify-around xl:hidden"
           onClick={() => {
             setOpen(!open);
           }}

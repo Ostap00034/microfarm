@@ -6,10 +6,10 @@ const Main = () => {
   return (
     <ComponentLayout>
       <div className="">
-        <h1 className="font-gilroy-bold text-[32px] leading-[59.42px] text-white xl:text-[48px]">
+        <h1 className="font-gilroy-bold text-[28px] leading-[59.42px] text-white xl:text-[48px]">
           Автоматизированные фермы.
         </h1>
-        <h1 className="font-gilroy-bold text-[32px] leading-[59.42px] text-green xl:text-[48px]">
+        <h1 className="font-gilroy-bold text-[28px] leading-[59.42px] text-green xl:text-[48px]">
           IOT технологии
         </h1>
       </div>

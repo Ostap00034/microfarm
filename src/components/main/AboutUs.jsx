@@ -10,7 +10,7 @@ const AboutUs = () => {
       >
         О нас
       </h2>
-      <h3 className="font-gilroy-bold text-[24px] leading-[29.71px] text-white">
+      <h3 className="font-gilroy-bold text-[16px] leading-[29.71px] text-white xl:text-[24px]">
         MiCROFARM – полностью автоматизированное гидропонное решение для сити -
         фермерства. Обеспечивает максимальную плотность установки и экономию
         энергии при минимальном ручном труде.

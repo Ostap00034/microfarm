@@ -14,9 +14,11 @@ const Header = () => {
         className="flex h-[128px] w-full flex-row items-center justify-between"
       >
         <Link href="/" scroll={false}>
-          <div className="flex flex-row items-center justify-center gap-[24px]">
-            <Image src="/logo.svg" priority width="56" height="56" alt="logo" />
-            <h2 className="font-gilroy-bold text-[36px] not-italic  leading-[45px] text-white">
+          <div className="flex flex-row items-center justify-center gap-[12px] xl:gap-[24px]">
+            <div className="relative h-[36px] w-[36px] xl:h-[56px] xl:w-[56px]">
+              <Image src="/logo.svg" alt="main image" priority fill />
+            </div>
+            <h2 className="font-gilroy-bold text-[24px] not-italic leading-[45px]  text-white xl:text-[36px]">
               MiCROFARM
             </h2>
           </div>

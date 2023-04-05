@@ -51,25 +51,25 @@ const Header = () => {
           </Link>
         </div>
         <div
-          className="z-50 flex h-[60px] w-[80px] flex-col items-center justify-around xl:hidden"
+          className="z-50 flex h-[40px] w-[60px] flex-col items-center justify-around xl:hidden"
           onClick={() => {
             setOpen(!open);
           }}
         >
           <span
             className={`${
-              open ? "translate-y-[20px] rotate-45" : ""
-            } block h-[8px] w-[60px] transform cursor-pointer rounded-[3px] bg-green transition duration-300 ease-in-out`}
+              open ? "translate-y-[13px] rotate-45" : ""
+            } block h-[6px] w-[40px] transform cursor-pointer rounded-[3px] bg-green transition duration-300 ease-in-out`}
           ></span>
           <span
-            className={`block h-[8px] ${
-              open ? "w-0" : "w-[60px]"
+            className={`block h-[6px] ${
+              open ? "w-0" : "w-[40px]"
             } cursor-pointer rounded-[3px] bg-green duration-300 ease-in-out`}
           ></span>
           <span
             className={`${
-              open ? "-translate-y-[20px] -rotate-45" : ""
-            } block h-[8px] w-[60px] transform cursor-pointer  rounded-[3px] bg-green transition duration-300 ease-in-out`}
+              open ? "-translate-y-[13px] -rotate-45" : ""
+            } block h-[6px] w-[40px] transform cursor-pointer rounded-[3px] bg-green transition duration-300 ease-in-out`}
           ></span>
         </div>
       </header>

@@ -16,7 +16,7 @@ const Main = () => {
       <div className="relative h-[50vw] w-[80vw] xl:h-[28vw] xl:w-[45vw]">
         <Image
           className="rounded-[24px]"
-          src="/images/main.jpg"
+          src="/images/main.png"
           alt="main image"
           priority
           fill

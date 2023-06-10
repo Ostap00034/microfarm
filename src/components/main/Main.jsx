@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import ComponentLayout from "../layouts/ComponentLayout";
-
 const Main = () => {
   return (
     <ComponentLayout>
@@ -14,13 +13,21 @@ const Main = () => {
         </h1>
       </div>
       <div className="relative h-[50vw] w-[80vw] xl:h-[28vw] xl:w-[45vw]">
-        <Image
+        <video
+          autoPlay
+          loop
+          src={require("../../../public/video.mp4")}
+          type="video/mp4"
+          className="rounded-[24px]"
+        />
+        {/* Old Logo */}
+        {/* <Image
           className="rounded-[24px]"
           src="/images/main.png"
           alt="main image"
           priority
           fill
-        />
+        /> */}
       </div>
     </ComponentLayout>
   );

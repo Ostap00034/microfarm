@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="flex w-full flex-col items-start justify-start gap-[36px] bg-black py-[36px] px-[36px] xl:px-[72px]">
       <div className="flex w-full flex-row items-center justify-between">
-        <Link href="/#main" scroll={false}>
+        <Link href="/#start" scroll={false}>
           <div className="flex flex-row items-center justify-center gap-[12px] xl:gap-[24px]">
             <div className="relative h-[36px] w-[36px] xl:h-[56px] xl:w-[56px]">
               <Image src="/logo.svg" alt="main image" priority fill />

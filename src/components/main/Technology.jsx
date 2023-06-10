@@ -8,7 +8,7 @@ const Technology = () => {
     <ComponentLayout col>
       <h2
         id="technology"
-        className="font-gilroy-bold text-[36px] uppercase leading-[44.57px] text-green"
+        className="mt-[-128px] pt-[128px]  font-gilroy-bold text-[36px] uppercase leading-[44.57px] text-green"
       >
         Наша технология
       </h2>

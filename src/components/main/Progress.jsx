@@ -3,7 +3,7 @@ import ComponentLayout from "../layouts/ComponentLayout";
 const Progress = () => {
   return (
     <ComponentLayout col>
-      <div className="flex flex-row items-center justify-start gap-[16px]">
+      <div className="mt-[128px] flex flex-row items-center justify-start gap-[16px]">
         <h5 className="font-gilroy-medium text-[16px] leading-[19.41px] text-white">
           Наши достижения
         </h5>

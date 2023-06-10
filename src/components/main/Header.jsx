@@ -7,13 +7,13 @@ import HiddenMenu from "./HiddenMenu";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <>
+    <header className="fixed top-0 z-10 w-[calc(100vw-72px)] bg-dark xl:w-[calc(100vw-144px)]">
       <HiddenMenu open={open} setOpen={setOpen} />
-      <header
+      <nav
         id="main"
         className="flex h-[128px] w-full flex-row items-center justify-between"
       >
-        <Link href="/" scroll={false}>
+        <Link href="/#start" scroll={false}>
           <div className="flex flex-row items-center justify-center gap-[12px] xl:gap-[24px]">
             <div className="relative h-[36px] w-[36px] xl:h-[56px] xl:w-[56px]">
               <Image src="/logo.svg" alt="main image" priority fill />
@@ -72,8 +72,8 @@ const Header = () => {
             } block h-[6px] w-[40px] transform cursor-pointer rounded-[3px] bg-green transition duration-300 ease-in-out`}
           ></span>
         </div>
-      </header>
-    </>
+      </nav>
+    </header>
   );
 };
 

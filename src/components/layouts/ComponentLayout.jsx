@@ -6,8 +6,9 @@ const ComponentLayout = ({ children, col, bg = "" }) => {
     <div
       className={
         col
-          ? "flex w-full flex-col items-start justify-between gap-[36px] " + bg
-          : "flex w-full flex-col items-start justify-between gap-[36px] xl:flex-row " +
+          ? "flex w-[calc(100vw-72px)] flex-col items-start justify-between gap-[36px] xl:w-[calc(100vw-144px)] " +
+            bg
+          : "flex w-[calc(100vw-72px)] flex-col items-start justify-between gap-[36px] xl:w-[calc(100vw-144px)] xl:flex-row " +
             bg
       }
     >

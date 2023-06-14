@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 const HiddenMenu = ({ open, setOpen }) => {
   return (
     <div
-      className={`absolute left-0 top-0 z-50 h-screen w-screen transform bg-dark ${
+      className={`absolute left-0 top-0 z-50 ml-[-35px] h-screen w-screen transform bg-dark ${
         open ? "-translate-y-0" : "-translate-y-full"
       } filter transition-transform duration-300 ease-in-out  `}
     >

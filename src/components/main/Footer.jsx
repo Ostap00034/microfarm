@@ -40,18 +40,22 @@ const Footer = () => {
           </Link>
         </div>
         <div className="flex flex-row gap-[24px]">
-          <Image
-            src="./icons/whatsapp.svg"
-            width="24"
-            height="24"
-            alt="whatsapp logo"
-          />
-          <Image
-            src="./icons/telegram.svg"
-            width="24"
-            height="24"
-            alt="telegram logo"
-          />
+          <a href="https://wa.me/79963174293">
+            <Image
+              src="./icons/whatsapp.svg"
+              width="24"
+              height="24"
+              alt="whatsapp logo"
+            />
+          </a>
+          <a href="https://t.me/XuyLIV">
+            <Image
+              src="./icons/telegram.svg"
+              width="24"
+              height="24"
+              alt="telegram logo"
+            />
+          </a>
         </div>
       </div>
       <div className="flex w-full flex-row items-center justify-between">

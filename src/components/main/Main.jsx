@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ComponentLayout from "../layouts/ComponentLayout";
+import VideoPlayer from "../VideoPlayer";
 const Main = () => {
   return (
     <ComponentLayout>
@@ -13,13 +14,14 @@ const Main = () => {
         </h1>
       </div>
       <div className="relative h-[50vw] w-[80vw] xl:h-[28vw] xl:w-[45vw]">
-        <video
+        {/* <video
           autoPlay
           loop
           src={require("../../../public/video.mp4")}
           type="video/mp4"
           className="rounded-[24px]"
-        />
+        /> */}
+        <VideoPlayer src={"/video.mp4"} />
         {/* Old Logo */}
         {/* <Image
           className="rounded-[24px]"

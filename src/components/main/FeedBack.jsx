@@ -75,7 +75,7 @@ const FeedBack = () => {
             placeholder="Кратко опишите ваш проект"
             className="h-[176px] w-[80vw] min-w-[40vw] rounded-[12px] py-[20px] px-[16px] font-gilroy-medium text-[16px] leading-[19.41px] xl:w-auto"
           />
-          <Button type="submit" />
+          <Button type="submit" text="Отправить" />
           {/* <Button type="submit" onClick={(e) => submit(e)} text="Отправить" /> */}
         </form>
         <iframe
